@@ -17,7 +17,8 @@ console.log(null == undefined); // true (null and undefined are considered equal
 console.log(null === undefined); // false (null and undefined are not the same type)
 
 // Always use === in Automation
-console.log("" === 0); // false (empty string is not the same type as number 0)
+console
+.log("" === 0); // false (empty string is not the same type as number 0)
 console.log("0" === 0); // false (string "0" is not the same type as number 0)
 console.log("0" === ""); // false (string "0" is not the same type as empty string)
 console.log(null === undefined); // false (null and undefined are not the same type)
